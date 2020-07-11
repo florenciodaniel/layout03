@@ -1,0 +1,111 @@
+
+
+
+/*EQUIPE*/
+@media (min-width:320px) {
+    .equipe{
+        width: 100%;
+        min-height: 100vh;
+        padding-top: 30px;
+        h2{
+            text-align: center;
+            padding: 20px;
+            span{
+                font-size: 2.3rem;
+                font-weight: bold;
+                background-color: rgba(255,255,255,0.6) ;
+                padding: 10px;
+                border-radius: 3px;
+            }
+        }
+        .container{
+            margin-top: 80px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .item{
+                margin: 8px;
+                width: 310px;
+                height: 310px;
+                border: 1px solid black;
+                border-radius: 5px;
+                position: relative;
+                background-color: rgba(135, 135, 135,1);
+                img{
+                    width: 98%;
+                    height: 98%;
+                    border-radius: 5px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 500;
+                    margin: 1%;
+                    object-fit: cover;
+                }
+                .nome{
+                    position: absolute;
+                    top: 10px;
+                    left: 10px;
+                    z-index: 1000;
+                    span{
+                        font-size: 2rem;
+                        color: white;
+                        background-color: rgba(63, 66, 64,0.5);
+                        padding: 3px;
+                        border-radius: 3px;
+                    }
+                }
+                .desc{
+                    position: absolute;
+                    bottom: 10px;
+                    right: 10px;
+                    z-index: 1000;
+                    text-align: center;
+                    span{
+                        font-size: 1.6rem;
+                        color: blue;
+/*                        background-color: rgba(63, 66, 64,0.5);*/
+                        padding: 3px;
+                        border-radius: 3px;
+                        text-align: center;
+                    }
+                }
+                &:hover{
+                    background-color: red;
+                }
+            }
+        }
+    }
+}
+@media (min-width:480px) { 
+
+
+
+}
+@media (min-width:640px) { 
+
+
+
+}
+@media (min-width:768px) { 
+
+}
+@media (min-width:1024px) { 
+
+}
+
+@media (min-width:1280px) { 
+
+
+
+}
+@media (min-width:1366px) { 
+
+
+
+}
+@media (min-width:1440px) { 
+
+
+
+}

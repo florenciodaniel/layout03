@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Autoeletrica</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="css/boot.css" rel="stylesheet" type="text/css"/>
+        <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootanime.css" rel="stylesheet" type="text/css"/>
+        <link href="css/swiper.min.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+    <body>
+        <header id="header-topo">
+            <nav class="nav-topo">
+                <ul class="ul-logo">
+                    <a href="index.php" onclick="clicare()"><li><p>auto <span>MEGA</span></p></li></a>
+
+                </ul>
+
+                <div id="menu_img">
+
+                    <img id="img1" onclick="mostrar1()" alt="hindu" src="img/menu/menu_fechado.png">
+                    <img id="img2" onclick="mostrar2()" alt="hindu" src="img/menu/menu_aberto.png" class="naoMostrar">
+                </div>
+                <ul id="ul-link" class="ul-link inativo">
+                    <a href="index.php" onclick="clicare()"><li>Home</li></a>
+                    <a href="#servicos" onclick="clicare()"><li>Serviços</li></a>
+                    <a href="#equipe" onclick="clicare()"><li>Equipe</li></a>
+                    <a href="#promocao" onclick="clicare()"><li>Promoções</li></a>
+                    <a href="#contato" onclick="clicare()"><li>Contato</li></a>
+                </ul>
+            </nav>
+        </header>
+
+
+        <div class="banner" id="banner">
+            <div class="container">
+                <h1>Sempre o melhor para seu veículo</h1>
+                <p>Mauris cursus maximus ex, at pellentesque est pulvinar eget. Donec vitae nibh molestie orci maximus fringilla. Mauris aliquam ut massa vitae tincidunt. Nullam a risus scelerisque purus ullamcorper faucibus. Donec nunc neque, imperdiet eu quam eget, congue posuere orci</p>
+                <a id="link" href="#sobre" onclick="clicare()"><p><span>Vamos começar</span></p></a>
+            </div>
+        </div>
+        <hr>
+        <div class="sobre" id="sobre">
+            <div class="container" data-boot_aparecer="aparecer">
+                <h2>EMPRESA</h2>
+                <p>Proin id purus velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam molestie, ipsum at elementum imperdiet, velit ligula cursus mauris, hendrerit venenatis lectus sem eu metus. Mauris cursus maximus ex, at pellentesque est pulvinar eget. Donec vitae nibh molestie orci maximus fringilla. Mauris aliquam ut massa vitae tincidunt. Nullam a risus scelerisque purus ullamcorper faucibus. Donec nunc neque, imperdiet eu quam eget, congue posuere orci.</p>
+                <p>Maecenas sed luctus erat. Fusce auctor ante quam, eu tincidunt velit sollicitudin ut. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam eu nulla id velit ullamcorper accumsan ac sit amet lacus. Nunc faucibus est vitae nibh dictum vulputate. Nunc neque sem, venenatis quis semper eget, pretium eu est. Pellentesque ac placerat orci. Duis eget tortor non ex interdum efficitur. Suspendisse pellentesque est a tempus bibendum.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="servicos" id="servicos">
+            <h2 data-boot_flip="topo"><span>SERVIÇOS</span></h2>
+            <div class="container">
+                <div class="box" data-boot_aparecer="rodopio-simples">
+                    <h4>Solda</h4>
+                    <div class="img">
+                        <img src="img/servicos/catamarm.jpg" alt=""/>
+                    </div>
+                    <p>Proin id purus velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam molestie, ipsum at elementum imperdiet, velit ligula cursus mauris, hendrerit venenatis lectus sem eu metus. Mauris cursus maximus ex, at pellentesque est pulvinar eget. Donec vitae nibh molestie orci maximus fringilla. </p>
+                    <p>Maecenas sed luctus erat. Fusce auctor ante quam, eu tincidunt velit sollicitudin ut. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam eu nulla id velit ullamcorper accumsan ac sit amet lacus. Nunc faucibus est vitae nibh dictum vulputate. </p>
+                </div>
+                <div class="box" data-boot_aparecer="rodopio-simples">
+                    <h4>Elétrica</h4>
+                    <div class="img">
+                        <img src="img/servicos/catamarm.jpg" alt=""/>
+                    </div>
+                    <p>Proin id purus velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam molestie, ipsum at elementum imperdiet, velit ligula cursus mauris, hendrerit venenatis lectus sem eu metus. Mauris cursus maximus ex, at pellentesque est pulvinar eget. Donec vitae nibh molestie orci maximus fringilla. </p>
+                    <p>Maecenas sed luctus erat. Fusce auctor ante quam, eu tincidunt velit sollicitudin ut. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam eu nulla id velit ullamcorper accumsan ac sit amet lacus. Nunc faucibus est vitae nibh dictum vulputate. </p>
+                </div>
+                <div class="box" data-boot_aparecer="rodopio-simples">
+                    <h4>Injeção</h4>
+                    <div class="img">
+                        <img src="img/servicos/catamarm.jpg" alt=""/>
+                    </div>
+                    <p>Proin id purus velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam molestie, ipsum at elementum imperdiet, velit ligula cursus mauris, hendrerit venenatis lectus sem eu metus. Mauris cursus maximus ex, at pellentesque est pulvinar eget. Donec vitae nibh molestie orci maximus fringilla. </p>
+                    <p>Maecenas sed luctus erat. Fusce auctor ante quam, eu tincidunt velit sollicitudin ut. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam eu nulla id velit ullamcorper accumsan ac sit amet lacus. Nunc faucibus est vitae nibh dictum vulputate. </p>
+                </div>
+                <div class="box" data-boot_aparecer="rodopio-simples">
+                    <h4>Pintura</h4>
+                    <div class="img">
+                        <img src="img/servicos/catamarm.jpg" alt=""/>
+                    </div>
+                    <p>Proin id purus velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam molestie, ipsum at elementum imperdiet, velit ligula cursus mauris, hendrerit venenatis lectus sem eu metus. Mauris cursus maximus ex, at pellentesque est pulvinar eget. Donec vitae nibh molestie orci maximus fringilla. </p>
+                    <p>Maecenas sed luctus erat. Fusce auctor ante quam, eu tincidunt velit sollicitudin ut. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam eu nulla id velit ullamcorper accumsan ac sit amet lacus. Nunc faucibus est vitae nibh dictum vulputate. </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="equipe" id="equipe">
+            <h2 data-boot_aparecer="aparecer"><span>NOSSA EQUIPE</span></h2>
+            <div class="bcontainer container" >
+
+                <div class="item" data-boot_flip="baixo">
+                    <img src="img/230817-margot-robbie-03.jpg" alt=""/>
+                    <p class="nome"><span>Nome da pessoa</span></p>
+                    <p class="desc"><span> Fusce auctor ante quam, eu tincidunt velit sollicitudin ut. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</span></p>
+                </div>
+                <div class="item" data-boot_flip="baixo">
+                    <img src="img/230817-margot-robbie-03.jpg" alt=""/>
+                    <p class="nome"><span>Nome da pessoa</span></p>
+                    <p class="desc"><span> Fusce auctor ante quam, eu tincidunt velit sollicitudin ut. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</span></p>
+                </div>
+                <div class="item" data-boot_flip="baixo">
+                    <img src="img/230817-margot-robbie-03.jpg" alt=""/>
+                    <p class="nome"><span>Nome da pessoa</span></p>
+                    <p class="desc"><span> Fusce auctor ante quam, eu tincidunt velit sollicitudin ut. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</span></p>
+                </div>
+                <div class="item" data-boot_flip="baixo">
+                    <img src="img/230817-margot-robbie-03.jpg" alt=""/>
+                    <p class="nome"><span>Nome da pessoa</span></p>
+                    <p class="desc"><span> Fusce auctor ante quam, eu tincidunt velit sollicitudin ut. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</span></p>
+                </div>
+                <div class="item" data-boot_flip="baixo">
+                    <img src="img/230817-margot-robbie-03.jpg" alt=""/>
+                    <p class="nome"><span>Nome da pessoa</span></p>
+                    <p class="desc"><span> Fusce auctor ante quam, eu tincidunt velit sollicitudin ut. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</span></p>
+                </div>
+
+
+            </div>
+        </div>
+        <hr>
+        <div class="promocao" id="promocao">
+            <h2 data-boot_aparecer="aparecer"><span>PROMOÇÃO DESTE MÊS</span></h2>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url(img/sw.jpg)">
+                        <p class="prod"><span>Limpador tencit</span></p>
+                        <p class="preco"><span>R$ = 220,00</span></p>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(img/sw.jpg)">
+                        <p class="prod"><span>Escapamento gol</span></p>
+                        <p class="preco"><span>R$ = 350,00</span></p>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(img/sw.jpg)">
+                        <p class="prod"><span>Volante forrado</span></p>
+                        <p class="preco"><span>R$ = 260,00</span></p>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(img/sw.jpg)">
+                        <p class="prod"><span>Bateria 45 AP</span></p>
+                        <p class="preco"><span>R$ = 680,00</span></p>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(img/sw.jpg)">
+                        <p class="prod"><span>Radio Digital</span></p>
+                        <p class="preco"><span>R$ = 1.499,00</span></p>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(img/sw.jpg)">
+                        <p class="prod"><span>Tapete SWT</span></p>
+                        <p class="preco"><span>R$ = 450,00</span></p>
+                    </div>
+
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <hr>
+        <div class="feedback">
+            <h2 data-boot_aparecer="aparecer"><span>Nossa propaganda são clientes satisfeitos</span></h2>
+    <div class="bcontainer container">
+        <div class="depoimento" data-boot_flip="esquerda">
+            <div class="depoimento-img">
+                <img src="img/adult-1867889_1280.jpg" alt=""/>
+            </div>
+            <p>nome da pessoa</p>
+            <p>
+                Esta musica é um dialogo entre os "eus" para o seu verdadeiro Ser, quando ele diz muro é a respeito das barreiras que estes "eus" criam na existencia, pois só conhecerao a verdade quando tiver liberdade total, mas nao esta simples material, mas sim liberdade de seu verdadeiro Ser. 
+            </p>
+            
+        </div>
+        <div class="depoimento" data-boot_flip="baixo">
+            <div class="depoimento-img">
+                <img src="img/adult-1867889_1280.jpg" alt=""/>
+            </div>
+            <p>nome da pessoa</p>
+            <p>
+                Esta musica é um dialogo entre os "eus" para o seu verdadeiro Ser, quando ele diz muro é a respeito das barreiras que estes "eus" criam na existencia, pois só conhecerao a verdade quando tiver liberdade total, mas nao esta simples material, mas sim liberdade de seu verdadeiro Ser. 
+            </p>
+        </div>
+        <div class="depoimento" data-boot_flip="direita">
+            <div class="depoimento-img">
+                <img src="img/adult-1867889_1280.jpg" alt=""/>
+            </div>
+            <p>nome da pessoa</p>
+            <p>
+                Esta musica é um dialogo entre os "eus" para o seu verdadeiro Ser, quando ele diz muro é a respeito das barreiras que estes "eus" criam na existencia, pois só conhecerao a verdade quando tiver liberdade total, mas nao esta simples material, mas sim liberdade de seu verdadeiro Ser. 
+            </p>
+        </div>
+    </div>
+        </div>
+        <hr>
+        <!--                       ----------------------CONTATO--------------------------------  -->
+        <div id="contato" class="bcontainer contato">
+            <h2 data-boot_flip="topo">Estamos a sua disposição</h2>
+            <p data-boot_aparecer="aparecer">Para um melhor atendimento disponibilamos varios meios para receber o seu contato</p>
+            <div class="contato-container">
+                <div class="contato-box" data-boot_aparecer="dir">
+                    <div class="box-icon">
+                        <img src="img/icons/iconfone.png" alt=""/>
+                        <span>telefone (99)8681-5681</span>
+                    </div>
+                    <div class="box-icon">
+                        <img src="img/icons/iconfone.png" alt=""/>
+                        <span>telefone (99)8681-4519</span>
+                    </div>
+                    <div class="box-icon">
+                        <img src="img/icons/whatsicon.png" alt=""/>
+                        <span>whatsapp (99)99856-1467</span>
+                    </div>
+                    <div class="box-icon">
+                        <img src="img/icons/email-messages-icon-16.png" alt=""/>
+                        <span>contato@bellefeme.com</span>
+                    </div>
+                    <div class="box-icon">
+                        <img src="img/icons/insticon.png" alt=""/>
+                        <span>@bellefeme</span>
+                    </div>
+                    <div class="box-icon">
+                        <img src="img/icons/facicon.png" alt=""/>
+                        <span>facebook/bellefeme</span>
+                    </div>
+
+                </div>
+
+                <div class="contato-box"  data-boot_aparecer="esq">
+                    <p>envie sua mensagem</p>
+                    <form>
+                        <div class="form">
+                            <div class="input a1">
+                                <label>Nome completo</label>
+                                <input type="text" name="dias" autocomplete="off" required="">
+                            </div>
+                            <div class="input a2">
+                                <label>Telefone</label>
+                                <input type="text" name="dias" autocomplete="off" required="">
+                            </div>
+                            <div class="input a3">
+                                <label>Assunto</label>
+                                <input type="text" name="dias" autocomplete="off" required="">
+                            </div>
+                            <div class="input a4">
+                                <label>Menssagem</label>
+                                <textarea name="comentario">
+      
+                                </textarea>
+                            </div>
+                        </div>
+                        <div class="bwid_100 bflex bflejus_cen">
+                            <button class="bbut_blu bpad_08 bfont_2">Enviar Menssagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!--              ----------------------MAPS--------------------------------  -->
+        <div class=" maps">
+            <div class="bcontainer">
+                <div class="endreco">
+                    <img src="img/iconmap.png" alt="" data-boot_flip="topo"/>
+                    <p data-boot_aparecer="aparecer"> Rua Carmelita Vieira N° 2637 </p>
+                    <p data-boot_aparecer="aparecer">Bairro São Francisco</p> 
+                    <p data-boot_aparecer="aparecer">Foz do Iguaçu - PR</p>
+                </div>
+                <div class="iframe">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8317.33211880887!2d-54.581596953662554!3d-25.516737303860385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1583693101634!5m2!1spt-BR!2sbr" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+            </div>    
+        </div>
+        <hr>
+        <!--                ----------------------RODAPE--------------------------------  -->
+        <div class="rodape">
+            <div class="rodape-container">
+                <div class="links-rodape">
+                    <a>Legislação</a>
+                    <a>Trabalhe conosco</a>
+                    <a>Devoluções</a>
+                    <a>Comercial</a>
+                    <a>Pendencias</a>
+                </div>
+                <div class="bandeiras">
+                    <img src="img/banvisa.png" alt=""/>
+                    <img src="img/banmaster.png" alt=""/>
+                    <img src="img/banamer.png" alt=""/>
+                    <img src="img/banelo.png" alt=""/>
+                    <img src="img/bannaosei.png" alt=""/>
+                    <img src="img/banhiper.png" alt=""/>
+                    <img src="img/banboleto.png" alt=""/>
+                </div>
+            </div>
+            <div class="desenvolvedor">
+                <a href="">Desenvolvido e organizado por <span>Stylusprime</span> Sistemas Web -Todos os direitos reservados</a>
+            </div>
+        </div>
+
+        <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+        <script src="js/swiper.min.js" type="text/javascript"></script>
+
+        <script src="js/bootanime.js" type="text/javascript"></script>
+        <script type="text/javascript">
+                    //codigo que faz sumir o menu em telas pequenas ao clicar em um link e tambem troca o backgroud do menu fechado aberto
+                    function clicare() {
+                        document.getElementById('esconder').classList.remove('active');
+                        document.getElementById('esconder').classList.add('menu');
+                        document.getElementById('menu_img').classList.remove('menu-aberto');
+                        document.getElementById('menu_img').classList.add('menu-fechado');
+
+                    }
+
+        </script>
+
+        <script>
+            //trocar a imagem do menu
+
+            function mostrar1() {
+                document.getElementById('img1').classList.add('naoMostrar');
+                document.getElementById('img2').classList.remove('naoMostrar');
+                document.getElementById('ul-link').classList.remove('inativo');
+                document.getElementById('ul-link').classList.add('ativo');
+            }
+
+
+            function mostrar2() {
+                document.getElementById('img2').classList.add('naoMostrar');
+                document.getElementById('img1').classList.remove('naoMostrar');
+                document.getElementById('ul-link').classList.remove('ativo');
+                document.getElementById('ul-link').classList.add('inativo');
+            }
+        </script>
+
+
+        <script>
+
+            //codigo que descobre qual a classe que existe no elemnto e faz a troca desta classe quando clicado
+            function menu() {
+                var classes = document.getElementById('menu_img').className;
+                if (classes == 'menu-fechado') {
+                    document.getElementById('menu_img').classList.remove('menu-fechado');
+                    document.getElementById('menu_img').classList.add('menu-aberto');
+                } else {
+                    document.getElementById('menu_img').classList.add('menu-fechado');
+                    document.getElementById('menu_img').classList.remove('menu-aberto');
+                }
+
+            }
+
+            //codigo do toggle do menu em telas pequenas
+            $("#menu_img").click(function () {
+                $(this).toggleClass('on');
+                $(".menu").toggleClass("active");
+            });
+            $(".boraclicar").click(function () {
+                $(this).toggleClass('on');
+                $(".icons_tela_pequena").toggleClass("taclicado");
+            });
+            $(".praclicar").click(function () {
+                $(this).toggleClass('on');
+                $(".pramostrar").toggleClass("mostrado");
+                $("#menu_img").click(function () {
+                    $(this).toggleClass('on');
+                    $(".pramostrar").toggleClass("desativar");
+                });
+            });
+        </script>
+        <script type="text/javascript">
+
+            //codigo que some e aparece o menu ao fazer scrooll no mouse 
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function () {
+
+                var currentScrollpos = window.pageYOffset;
+                if (prevScrollpos > currentScrollpos) {
+                    document.getElementById("header-topo").style.top = "0";
+                } else {
+                    document.getElementById("header-topo").style.top = "-100px";
+                }
+
+                prevScrollpos = currentScrollpos;
+            }
+
+            var swiper = new Swiper('.swiper-container', {
+                effect: 'coverflow',
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: 'auto',
+                coverflowEffect: {
+                    rotate: 20,
+                    stretch: 0,
+                    depth: 300,
+                    modifier: 1,
+                    slideShadows: true
+                },
+                loop: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: true
+                }
+
+            });
+
+        </script>
+        <script>
+            //codigo que faz smooth suave ao clicar no link ancora ate a section escolhida
+            $('#ul-link a').on('click', function (e) {
+                if (this.hash !== '') {
+                    e.preventDefault();
+                    const hash = this.hash;
+                    $('html, body')
+                            .animate({
+                                scrollTop: $(hash).offset().top
+                            }, 800);
+                }
+            });
+
+            $('#link').on('click', function (e) {
+                if (this.hash !== '') {
+                    e.preventDefault();
+                    const hash = this.hash;
+                    $('html, body')
+                            .animate({
+                                scrollTop: $(hash).offset().top
+                            }, 800);
+                }
+            });
+        </script>
+
+
+        <script type="text/javascript">
+            //codigo que faz sumir o menu em telas pequenas ao clicar em um link e tambem troca a img do menu fechado aberto
+            function clicare() {
+
+                document.getElementById('ul-link').classList.remove('ativo');
+                document.getElementById('ul-link').classList.add('inativo');
+                document.getElementById('img2').classList.add('naoMostrar');
+                document.getElementById('img1').classList.remove('naoMostrar');
+
+            }
+
+        </script>
+    </body>
+</html>
+

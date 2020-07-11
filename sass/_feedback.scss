@@ -1,0 +1,84 @@
+
+
+/*FEEDBACK*/
+@media (min-width:320px) {
+
+    .feedback{
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        h2{
+            text-align: center;
+            padding: 20px;
+            span{
+                font-size: 2.3rem;
+                font-weight: bold;
+                background-color: rgba(255,255,255,0.6) ;
+                padding: 10px;
+                border-radius: 3px;
+            }
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .depoimento{
+                width: 300px;
+                margin: 20px;
+                border-radius: 6px;
+                background-color: rgba(108, 184, 212,0.5);
+                display: flex;
+                flex-direction: column;
+                border: 1px solid blue;
+                .depoimento-img{
+                    width: 260px;
+                    height: 260px;
+                    margin: 20px;
+                    img{
+                        width: 260px;
+                        height: 260px;
+                        border-radius: 50%;
+                        object-fit: cover; 
+                    }
+                }
+                p{
+                    text-align: center;
+                    padding: 10px;  
+                }
+            }
+        }
+
+    }
+}
+@media (min-width:480px) { 
+
+
+
+}
+@media (min-width:640px) { 
+
+
+
+}
+@media (min-width:768px) { 
+
+}
+@media (min-width:1024px) { 
+
+}
+
+@media (min-width:1280px) { 
+
+
+
+}
+@media (min-width:1366px) { 
+
+
+
+}
+@media (min-width:1440px) { 
+
+
+
+}
